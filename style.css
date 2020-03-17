@@ -1,0 +1,43 @@
+.container{
+    padding: 75px;
+    Line-Height: 20px;
+    margin: auto auto;
+    text-align: center;
+}
+
+h1{
+    font-weight: bold;
+    letter-spacing: -1px;
+}
+
+a{
+    color: rgb(124, 54, 151);
+}
+
+
+#question1{
+    text-align: left;
+}
+
+.btn.btn-primary{
+    background-color: rgb(124, 54, 151);
+    margin: 2px;
+    padding: 0px 5px;
+}
+.highscores {
+    position: fixed;
+    left: 15px;
+    top: 10px;
+}
+#startTime{
+    position: fixed;
+    right: 35px;
+    top: 10px;
+}
+
+#countdown{
+    position: fixed;
+    right: 15px;
+    top: 10px;
+}
+

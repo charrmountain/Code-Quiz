@@ -1,12 +1,16 @@
 create coding quiz home page
-prompt user by display 
 in one corner HighScores page **needs to be its own html
-var timer=0
+timer=0
 start quiz button
 when user clicks button and first question page pops up
+
 timer starts gets +75 seconds
 
+Coding Quiz Challenge
+Try to answer the following code-related questions within the time limit. Keep it mind that incorrect answers will penalize your score/time by ten seconds!
+-start quiz button-
 
+pages refreshes with question appearing
 *ALL BUTTONS NEED HOVER FEATURE!!!!*
 
 question 1:
@@ -17,17 +21,18 @@ question 1:
    button- 4. Numbers"
 
 each button needs to be assigned a wrong and right value
-there are in this question to be assigned 3 rights and 1 wrong answer. 
+there are in this question to be assigned correct
 question 1{
-    button1:true
-    button2:true
-    button3:false
-    button4:true
+    button1:false
+    button2:false
+    button3:true
+    button4:false
 
 when answer wrong button
-timer gets -15 seconds
+timer gets -10 seconds
 
-user refreshes page every time questions get answered
+user gets next questions page every time questions get answered
+
 alert saying "wrong!" or "correct!" on the bottom of the question for 1 second.
 
 question 2:
@@ -103,3 +108,45 @@ Button 1- Go Back to homepage
 Button 2- clear to high scores
 
 
+var homepage= document.getElementById("titlepage");
+var start = document.getElementById("startBtn");
+var quiz = document.getElementById("quiz");
+var questions = document.getElementById("question");
+var A = document.getElementById("A");
+var B = document.getElementById("B");
+var C = document.getElementById("C");
+var D = document.getElementById("D");
+
+
+var questions = [
+    {   question1: "Commonly used data types DO NOT include:",
+        "1. Strings":false,
+        "2. Booleans":false,
+        "3. Alerts":true,
+        "4. Numbers":false,
+    },{
+        question2:"The condition in an if / else statement is enclosed within ___.",
+        "1. Quotes":false,
+        "2. Curly Brackets":true,
+        "3. Parentheses ":false,
+        "4. Square Brackets":false,
+    },{
+        question3: "Arrays in JavaScript can be used to store ___.",
+        "1. Numbers and Strings":false,
+        "2. Other Arrays":false,
+        "3. Booleans":false,
+        "4. All of the Above":true,
+    },{
+        question4: "String values must be enclosed within ___ when being assigned to variables.",
+        "1. Commas":false,
+        "2. Curly Brackets":false,
+        "3. Quotes":true,
+        "4. Parentheses":false,
+    },{
+        question5: "A very useful tool used during development and debugging for printing content to the debugger is:",
+        "1. JavaScript":false,
+        "2. Terminal/Bash":false,
+        "3. For Loops":false,
+        "4. Console Log":true,
+    }
+];
