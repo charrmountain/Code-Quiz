@@ -2,7 +2,7 @@
 
 ## **Description**
 
--  User can take a quiz to test their knowledge with 5 simple questions about software development, and syntax in coding. By pressing "Start Quiz" they start the quiz! Then begins the 75 second timer, and each time the user gets a question wrong they get -10 seconds from the clock. Every time they answer correctly the user gets +10 added to their score. At the end they are taken to the high scores page where they may input their scores, and see their name on the scoreboard! They may also reset the scoreboard with the "Reset" button. Then they may return home by clicking the "Go Back" button. 
+-  User can take a quiz to test their knowledge with 5 simple questions about software development, and syntax in coding. By pressing "Start Quiz" they start the quiz! Then begins the 75 second timer, and each time the user gets a question wrong they get -10 seconds from the clock. Every time they answer correctly they are able to move on to next question. At the end they are taken to the high scores page where they may input their initials, and see their name on the scoreboard! Their score is the time left! They may also reset the scoreboard with the "Reset" button. Then they may return home by clicking the "Go Back" button. 
 
     - ### **HTML pages:**
          1. [index.html](index.html) is the main home page for the quiz

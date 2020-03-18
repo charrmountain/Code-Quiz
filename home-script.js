@@ -31,7 +31,7 @@ var questions = [
 var currentQuestion = 0;
 var lastQuestion = questions.length - 1;
 var timeleft = 0;
-var score = 0;
+
 
 function startTimer() {
     // startTime.style.display = "none";
@@ -48,8 +48,7 @@ function startTimer() {
 
 function checkAnswer(answer, choicePicked){
     if(answer === choicePicked){ 
-        //get +10 score
-        score += 10;
+
     }else{
         // answer is wrong -10 sec
         timeleft -= 10;
@@ -62,7 +61,7 @@ function checkAnswer(answer, choicePicked){
         newScore=[]
  
          // add score to list
-        newScore.push(score)
+        newScore.push(timeleft)
 
          // add to local storage
         localStorage.setItem("newScore", JSON.stringify(newScore))
