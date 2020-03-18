@@ -13,7 +13,7 @@
 
     - ### **Style Sheets** (used on all HTML pages)**:**
          1. [style.css](style.css) (created by Coding)
-         2. [Bootstrap] (https://getbootstrap.com/)
+         2. [Bootstrap] (https://getbootstrap.com/Bootstrap)
 
 
 ## **Visuals**
