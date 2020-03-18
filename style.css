@@ -19,16 +19,22 @@ a{
     text-align: left;
 }
 
-.btn.btn-primary{
+.button, .btn.btn-primary{
     background-color: rgb(124, 54, 151);
     margin: 2px;
     padding: 0px 5px;
 }
+
 .highscores {
     position: fixed;
     left: 15px;
     top: 10px;
 }
+
+#highscoresForm{
+    position: center;
+}
+
 #startTime{
     position: fixed;
     right: 35px;
