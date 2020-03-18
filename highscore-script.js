@@ -33,5 +33,6 @@ userHighscore.textContent="Your final score is " + userScore ;
 
 //reset Button
 resetBtn.addEventListener('click', function () {
-    userHighscore.value = '';
+    localStorage.clear();
+    document.getElementById("form").reset();
 }, false);

@@ -82,6 +82,7 @@ function storeAnswer(event){
 }
 
 function displayQuestion(){
+    var x = document.createElement("BR")
   //display question1
   question.textContent=questions[currentQuestion].q 
   //loop through choices
@@ -94,9 +95,10 @@ function displayQuestion(){
      newBtn.textContent = choice;
      //set values to the button
      newBtn.setAttribute("value", choice);
+    //style
+    newBtn.style.backgroundColor = "purple";
+    newBtn.style.color="white";
      choiceList.addEventListener('click',storeAnswer);
-     //goes to check answer once button is clicked
-    //  newBtn.addEventListener('click',checkAnswer);
   }  
 }
 
@@ -109,3 +111,4 @@ function startQuiz() {
     //start timer
     startTimer()
 }
+

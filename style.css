@@ -19,8 +19,9 @@ a{
     text-align: left;
 }
 
-.button, .btn.btn-primary{
+button, .btn.btn-primary, #start{
     background-color: rgb(124, 54, 151);
+    color: white;
     margin: 2px;
     padding: 0px 5px;
 }
