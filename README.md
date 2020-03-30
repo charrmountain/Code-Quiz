@@ -1,4 +1,6 @@
-#  **Weather Forecast** #
+#  **Coding Quiz** #
+
+[Deployed Link](https://charrmountain.github.io/coding-quiz/)
 
 ## **Description**
 
@@ -17,6 +19,7 @@
 
 
 ## **Visuals**
+![alt](DEMO.gif)
 - Prompted with 5 questions
 - High Scores page will display at the end
 
@@ -25,4 +28,4 @@
 
 ## **Support**
 - e-mail: charr.mt@gmail.com
-- https://github.com/charrmountain/coding-quiz
+- [GitHub](https://github.com/charrmountain/coding-quiz)
